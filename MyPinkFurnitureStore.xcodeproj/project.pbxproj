@@ -11,6 +11,8 @@
 		1EC024D02DC0F42B00F77448 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC024CF2DC0F42B00F77448 /* ContentView.swift */; };
 		1EC024D22DC0F42D00F77448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC024D12DC0F42D00F77448 /* Assets.xcassets */; };
 		1EC024D52DC0F42D00F77448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC024D42DC0F42D00F77448 /* Preview Assets.xcassets */; };
+		1EC024DD2DC1008400F77448 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC024DC2DC1008400F77448 /* Product.swift */; };
+		1EC024E02DC1026100F77448 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC024DF2DC1026100F77448 /* ImageSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1EC024CF2DC0F42B00F77448 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EC024D12DC0F42D00F77448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC024D42DC0F42D00F77448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EC024DC2DC1008400F77448 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1EC024DF2DC1026100F77448 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		1EC024CC2DC0F42B00F77448 /* MyPinkFurnitureStore */ = {
 			isa = PBXGroup;
 			children = (
+				1EC024DE2DC1023000F77448 /* Components */,
+				1EC024DB2DC1006D00F77448 /* Models */,
 				1EC024CD2DC0F42B00F77448 /* MyPinkFurnitureStoreApp.swift */,
 				1EC024CF2DC0F42B00F77448 /* ContentView.swift */,
 				1EC024D12DC0F42D00F77448 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				1EC024D42DC0F42D00F77448 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EC024DB2DC1006D00F77448 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EC024DC2DC1008400F77448 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EC024DE2DC1023000F77448 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1EC024DF2DC1026100F77448 /* ImageSliderView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC024D02DC0F42B00F77448 /* ContentView.swift in Sources */,
+				1EC024E02DC1026100F77448 /* ImageSliderView.swift in Sources */,
 				1EC024CE2DC0F42B00F77448 /* MyPinkFurnitureStoreApp.swift in Sources */,
+				1EC024DD2DC1008400F77448 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
