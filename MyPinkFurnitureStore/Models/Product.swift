@@ -51,3 +51,4 @@ var productList = [
 ]
 
 // git config user.name "Jannnn444"
+// git config user.email "yucianhuang@gmail.com"
