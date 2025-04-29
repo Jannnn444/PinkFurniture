@@ -55,8 +55,8 @@
 		1EC024CC2DC0F42B00F77448 /* MyPinkFurnitureStore */ = {
 			isa = PBXGroup;
 			children = (
-				1EC024DE2DC1023000F77448 /* Components */,
 				1EC024DB2DC1006D00F77448 /* Models */,
+				1EC024DE2DC1023000F77448 /* Components */,
 				1EC024CD2DC0F42B00F77448 /* MyPinkFurnitureStoreApp.swift */,
 				1EC024CF2DC0F42B00F77448 /* ContentView.swift */,
 				1EC024D12DC0F42D00F77448 /* Assets.xcassets */,
